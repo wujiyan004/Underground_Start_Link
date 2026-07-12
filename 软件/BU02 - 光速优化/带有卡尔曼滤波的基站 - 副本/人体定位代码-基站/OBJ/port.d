@@ -1,0 +1,17 @@
+..\obj\port.o: ..\Library\DWM1000\platform\port.c
+..\obj\port.o: ..\Library\DWM1000\platform\deca_sleep.h
+..\obj\port.o: ..\SYSTEM\sys\stm32f10x.h
+..\obj\port.o: ..\SYSTEM\sys\core_cm3.h
+..\obj\port.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\port.o: ..\SYSTEM\sys\system_stm32f10x.h
+..\obj\port.o: ..\Library\DWM1000\platform\port.h
+..\obj\port.o: ..\Library\DWM1000\STM32F10x_StdPeriph_Driver\stm32f10x_rcc.h
+..\obj\port.o: ..\Library\DWM1000\STM32F10x_StdPeriph_Driver\stm32f10x.h
+..\obj\port.o: ..\Library\DWM1000\STM32F10x_StdPeriph_Driver\stm32f10x_spi.h
+..\obj\port.o: ..\Library\DWM1000\STM32F10x_StdPeriph_Driver\stm32f10x_gpio.h
+..\obj\port.o: ..\Library\DWM1000\STM32F10x_StdPeriph_Driver\stm32f10x_rtc.h
+..\obj\port.o: ..\Library\DWM1000\STM32F10x_StdPeriph_Driver\stm32f10x_exti.h
+..\obj\port.o: ..\Library\DWM1000\STM32F10x_StdPeriph_Driver\misc.h
+..\obj\port.o: ..\Library\DWM1000\STM32F10x_StdPeriph_Driver\stm32f10x_bkp.h
+..\obj\port.o: ..\Library\DWM1000\STM32F10x_StdPeriph_Driver\stm32f10x_pwr.h
+..\obj\port.o: ..\Library\DWM1000\STM32F10x_StdPeriph_Driver\stm32f10x_it.h

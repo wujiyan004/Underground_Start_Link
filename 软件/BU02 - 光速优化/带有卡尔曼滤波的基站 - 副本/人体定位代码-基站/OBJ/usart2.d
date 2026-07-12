@@ -1,0 +1,17 @@
+..\obj\usart2.o: ..\Library\UART2\usart2.c
+..\obj\usart2.o: ..\Library\UART2\usart2.h
+..\obj\usart2.o: ..\USER\headfile.h
+..\obj\usart2.o: ..\SYSTEM\sys\sys.h
+..\obj\usart2.o: ..\SYSTEM\sys\stm32f10x.h
+..\obj\usart2.o: ..\SYSTEM\sys\core_cm3.h
+..\obj\usart2.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\usart2.o: ..\SYSTEM\sys\system_stm32f10x.h
+..\obj\usart2.o: ..\SYSTEM\delay\delay.h
+..\obj\usart2.o: ..\SYSTEM\usart\usart.h
+..\obj\usart2.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\usart2.o: ..\Library\UART2\usart2.h
+..\obj\usart2.o: ..\Library\LED\led.h
+..\obj\usart2.o: ..\USER\headfile.h
+..\obj\usart2.o: ..\Library\OLED\oled.h
+..\obj\usart2.o: ..\Library\KEY\key.h
+..\obj\usart2.o: ..\Library\DWM1000\dwm1000.h
