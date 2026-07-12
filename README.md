@@ -107,9 +107,43 @@ our accompanying videos are now available on **YouTube** (click below images to 
 
 
 
-<div align="center"><img src="image/公式1.png" width=100% /></div>
 
+目标节点初始位置通过加权基站位置计算：
 
+$$
+t_k^{(0)} = \left( \frac{\sum_{j=1}^n w_j s_j^x}{\sum_{j=1}^n w_j}, 
+                 \frac{1}{n}\sum_{j=1}^n D_{kj},
+                 \frac{\sum_{j=1}^n w_j s_j^z}{\sum_{j=1}^n w_j} \right)
+$$
+
+其中权重 $w_j = \frac{1}{D_{kj}^2}$
+
+对于每对节点 $(i,j)$，计算运动向量：
+
+$$
+\Delta_{ij} = (t_i - t_j) \cdot \frac{D_{ij} - \|t_i - t_j\|}{\|t_i - t_j\|^{0.1}}
+$$
+
+总运动向量为所有配对运动向量的累加：
+
+$$
+\Delta_i = \sum_{j \neq i} \Delta_{ij}
+$$
+
+目标节点位置更新公式：
+
+$$
+t_k^{(new)} = t_k^{(old)} + \eta \cdot \Delta_k
+$$
+
+学习率根据运动向量方向变化自动调整：
+
+$$
+\eta^{(new)} = \begin{cases}
+0.9 \cdot \eta^{(old)} & \text{if } \sum_{i=1}^{n+m} \mathbb{I}(\Delta_i^{(new)} \cdot \Delta_i^{(old)} < 0) > \frac{n+m}{1.9} \\
+1.5 \cdot \eta^{(old)} & \text{otherwise}
+\end{cases}
+$$
 
 
 
@@ -152,7 +186,7 @@ Clone the repository and catkin_make:
 初步确定测距误差来源：1.温补晶振对测距精度和稳定度的影响。2.车辆角度影响测距精度3.信号增益对测量精度的影响。4.天线信噪比和辐射图对测量精度的影响。5.天线延迟对测量精度的影响6.信号第一路径与增强反射路径电压比对测量精度的影响。
 ```
 cd ~/catkin_ws/src
-git clone https://github.com/hku-mars/LiDAR_IMU_Init.git
+git clone
 cd ..
 catkin_make -j
 source devel/setup.bash
@@ -170,7 +204,7 @@ It is highly recommended to run LI-Init and record your own data simultaneously,
 
 Theoretically livox_avia.launch supports mid-70, mid-40 LiDARs.
 
-**Note:** The code of LI-Init contains the initialization module and sequential FAST-LIO. If you run the code of LI-Init, it will first do initialization (if suffienct excitation is given, it will tell you the extrinsic transformation and temporal offset) and then it will switch into FAST-LIO. **Thus, if you want to run FAST-LIO on your own data but unfortunately the LiDAR and IMU are not synchronized or calibrated before, you can directly run LI-Init**. As for R3LIVE, you can write the extrinsic and temporal offset between LiDAR and IMU obtained by LI-Init into the config file of R3LIVE.
+**Note:** The code of LI-Init contains the initialization module and sequential FAST-LIO. If you run the code of LI-Init, it will first do initialization (if suffienct excitation is given, it will tell you the extrinsic transformation and temporal offset) and then it will switch into ROS + AutoPilot. **Thus, if you want to run FAST-LIO on your own data but unfortunately the LiDAR and IMU are not synchronized or calibrated before, you can directly run LI-Init**. As for Nav, you can write the extrinsic and temporal offset between LiDAR and IMU obtained by LI-Init into the config file of Nav.
 
 ### Important parameters
 
