@@ -14,7 +14,15 @@
 <div align="center"><img src="image/11.jpg" width=50% /></div>
 
 
-> Demo video link: <https://b23.tv/J1yiU1J>
+
+<p align="center">
+  <a href="https://b23.tv/J1yiU1J">
+    <img src="https://i2.hdslb.com/bfs/archive/f82fd050b0d7d6c9e91261f04574e1d8f26d688e.jpg@308w_174h" alt="效果展示" width="400">
+  </a>
+</p>
+<p align="center">效果展示</p>
+
+
 
 
 
