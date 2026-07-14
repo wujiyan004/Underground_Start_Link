@@ -1,4 +1,29 @@
-## 稳健的星链定位与通信系统设计 
+
+
+
+
+<div align="center">
+  <h1>稳健的星链定位与通信系统设计 </h1>
+  <h2>Spatial Collision-Aware Local Planning for Route-Guided<br/>Long-Range Quadruped Navigation</h2>
+  <p align="center">
+    Han Zheng,
+    Zhe Chen,
+    Yiwen Fu,
+    Ming Yang,
+    Tong Qin<sup>*</sup>
+  </p>
+  <a href="https://arxiv.org/abs/2606.19555" target="_blank"><img alt="Paper" src="https://img.shields.io/badge/Paper-arXiv-b31b1b?logo=arxiv&logoColor=white"/></a>
+  <a href="https://www.bilibili.com/video/BV15a7P6UEXb/" target="_blank"><img alt="Video" src="https://img.shields.io/badge/Video-Bilibili-FB7299?logo=bilibili&logoColor=white"/></a>
+  <a href="https://wuyi2121.github.io/SCAN-Planner/" target="_blank"><img alt="Project Page" src="https://img.shields.io/badge/Project_Page-Website-4A90E2?logo=googlechrome&logoColor=white"/></a>
+  <br/>
+</div>
+
+
+
+
+
+
+
 **Start-Link** 这是一个使用定制化的UWB系统设计的一个实时的同步定位与实时通信的系统。我愿称之为星链。是UWB与超宽带惯性系统的一种鲁棒的实时初始化方法。所提出的方法校准了LiDAR和IMU之间的时间偏移和外部参数，以及重力矢量和IMU偏差。我们的方法不需要任何目标或额外的传感器、特定的结构化环境、先验环境点图或外部和时间偏移的初始值。我们的方案解决了以下关键问题:
 
 1. A robust UWB/Imu/LiDAR odometry (**Start-Link**) modified from Start-Link.
@@ -12,7 +37,7 @@
 
 
 <div align="center"><img src="image/11.jpg" width=50% /></div>
-
+<div align="center"><img src="image/jizhan_line.png" width=50% /></div>
 
 
 <p align="center">
@@ -30,9 +55,9 @@
 
 <div align="center"><img src="image/jizhan.png" width=100% /></div>
 
-<div align="center"><img src="image/startlink.png" width=100% /></div>
+<div align="center"><img src="image/startlink.png" width=50% /></div>
 
-<div align="center"><img src="image/startlink8.0.png" width=100% /></div>
+<div align="center"><img src="image/startlink8.0.png" width=50% /></div>
 
 ### Excite the Sensors
 
