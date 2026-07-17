@@ -239,8 +239,8 @@
 
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="./image/23.jpg" width="43%" />
-  <img src="./image/33.jpg" width="55.2%" />
+  <img src="./image/23.jpg" width="50%" />
+  <img src="./image/33.jpg" width="50%" />
 </div>
 
 
