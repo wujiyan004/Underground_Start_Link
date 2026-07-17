@@ -31,6 +31,24 @@
 3. Support **multiple UWB types**: Within the coverage area of Starlink, multiple robots equipped with Starlink devices can achieve multi to multi real-time 3D high-precision, high-frequency (50hz) positioning and communication
 4. Seamlessly merged into Start-Link, as a robust initialization module.
 
+
+
+
+
+
+（一）项目背景
+
+我国煤矿井下长期面临“无卫星定位、环境复杂、多径严重、遮挡频繁、安全等级高”等天然难题，传统定位技术（如RFID、WiFi、蓝牙、惯导）在精度、稳定性、延时和可靠性方面均难以满足井下智能化、无人化建设的实际需求。随着矿山无人驾驶、井下机器人、智能巡检、智能安防等场景的快速发展，高精度、低延时、可通信、可规模部署的定位系统成为行业刚需。
+“基于交错矩阵式星链定位技术研究”项目正是围绕上述行业痛点，旨在攻克井下复杂环境下的感知与传输难题。本项目自主研发了一套面向井下巷道环境的高可靠定位通信一体化体系。该体系以超宽带技术为核心基础，充分利用其高时间分辨率、强抗多径干扰和低功耗的天然优势；并通过引入交错矩阵式星链拓扑结构，在巷道两侧交叉部署基站，构建了一个无缝覆盖、具备冗余自愈能力的物理网络。该项目不仅为矿用无人驾驶车辆提供了连续、可靠的绝对位置基准与导航信息，更构建了一张集定位、通信、感知接入于一体的“井下星链”，为全面实现智能矿山的高阶应用奠定了坚实的技术基础。
+本次测试依据项目技术协议及相关行业标准，对该项目已完成的阶段性成果进行实验室模拟测试以及室外场景测试，以评估其是否达到既定技术指标要求，为下一步井下部署、测试以及产业化应用提供依据。
+
+
+
+
+
+
+
+
 **Contributors**: [Jiyu Wang 王继禹](https://github.com/wujiyan004/Start_Link)
 
 
