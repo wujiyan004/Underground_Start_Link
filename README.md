@@ -13,7 +13,7 @@
     Tong Qin<sup>*</sup>
   </p>
   <a href="https://arxiv.org/abs/2606.19555" target="_blank"><img alt="Paper" src="https://img.shields.io/badge/Paper-arXiv-b31b1b?logo=arxiv&logoColor=white"/></a>
-  <a href="https://www.bilibili.com/video/BV15a7P6UEXb/" target="_blank"><img alt="Video" src="https://img.shields.io/badge/Video-Bilibili-FB7299?logo=bilibili&logoColor=white"/></a>
+  <a href="https://www.bilibili.com/video/BV1GVKJ6oEEn/?spm_id_from=333.1387.homepage.video_card.click&vd_source=5bf2994b3504ab19bc2368b1accdc012" target="_blank"><img alt="Video" src="https://img.shields.io/badge/Video-Bilibili-FB7299?logo=bilibili&logoColor=white"/></a>
   <a href="https://wuyi2121.github.io/SCAN-Planner/" target="_blank"><img alt="Project Page" src="https://img.shields.io/badge/Project_Page-Website-4A90E2?logo=googlechrome&logoColor=white"/></a>
   <br/>
 </div>
